@@ -1,0 +1,18 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#canvas{
+    box-sizing: border-box;
+    border: 16px solid red; /* IN REAL APPLICATIONS THE BORDER WILL "EAT" PIXELS FROM THE CANVAS */
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+}
